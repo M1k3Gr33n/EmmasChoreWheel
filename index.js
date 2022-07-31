@@ -10,3 +10,9 @@ function choreSelection() {
 
     document.getElementById("emmasChore").innerHTML = randChore;
 };
+
+function choreAmount() {
+    let randAmount = Math.floor(Math.random() * 5) + 5;
+
+    document.getElementById("choreAmount").innerHTML = randAmount;
+}

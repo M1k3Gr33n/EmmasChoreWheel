@@ -9,16 +9,18 @@
     <link rel="stylesheet" href="style.css">
   </head>
     <body>
+        
+        <section id="container">
+            <h1>Emmas Daily Chore</h1>
 
-        <h1>Emmas Daily Chore</h1>
+            <button onclick="choreSelection()">SPIN THE WHEEL!</button>
 
-        <button onclick="choreSelection()">SPIN THE WHEEL!</button>
-
-        <h1>The chore of the day is: <span id="emmasChore"></span></h1>
-        <br>
-        <h2>and it is worth</h2>
-        <br>
-        <span id="choreWorth"></span>
+            <h1>The chore of the day is: <span id="emmasChore"></span></h1>
+            <br>
+            <h2>and it is worth</h2>
+            <button onclick="choreAmount()">WHATS IT WORTH</button>
+            <h1>$<span id="choreAmount"></span></h1>
+        </section>
 
         <script src="index.js"></script>
         <script type="css/javascript">
