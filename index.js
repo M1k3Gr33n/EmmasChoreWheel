@@ -12,7 +12,7 @@ function choreSelection() {
 };
 
 function choreAmount() {
-    let randAmount = Math.floor(Math.random() * 5) + 5;
+    let randAmount = Math.floor(Math.random() * 5) + 1;
 
     document.getElementById("choreAmount").innerHTML = randAmount;
 }

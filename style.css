@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  } 
+  
+body {
+    margin: 0;
+    height:100%;
+    background-color: lightpink;
+}
+
+button {
+    color:steelblue;
+    font-weight: bolder;
+    border-radius: 25px;
+    outline: 2px dotted red;
+}
+
+.infoBoxes {
+    display:flex;
+    outline:2px dotted red;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 142, 255);
+    outline:4px solid rgb(255, 105, 255);
+    border-radius: 25px;
+    align-items: center;
+    margin-top: 10%;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+#dayTracker {
+    display:flex;
+    outline:2px dotted red;
+}
+
+#choreAmount {
+    color:white;
+    font-weight: bold;
+    outline:2px dotted red;
+}
+
+#emmasChore {
+    color:white;
+    font-weight: bold;
+    outline:2px dotted red;
+}

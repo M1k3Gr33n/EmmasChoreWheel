@@ -1,25 +1,45 @@
 <!-- make a rotating chore wheel. Each chore is worth a different amount.-->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Emma Chore Selection</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Emma Chore Selection</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
     <body>
-        
+
         <section id="container">
-            <h1>Emmas Daily Chore</h1>
+            <div id="dayTracker">
+                <ol>
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                    <li>Sunday</li>
+                </ol>
+            </div>
 
-            <button onclick="choreSelection()">SPIN THE WHEEL!</button>
+                <h1>Emmas Daily Chore</h1>
 
-            <h1>The chore of the day is: <span id="emmasChore"></span></h1>
-            <br>
-            <h2>and it is worth</h2>
-            <button onclick="choreAmount()">WHATS IT WORTH</button>
-            <h1>$<span id="choreAmount"></span></h1>
+                <button onclick="choreSelection()">Suprise Chore!</button>
+                <br>
+            <div class="infoBoxes">
+                <h1>The chore of the day is: </h1><br>
+                <h3><span id="emmasChore"></span></h3>
+                <br>
+                <h2> and it is worth</h2>
+            </div>
+                <br>
+                <button onclick="choreAmount()">Amount You Earn!</button>
+
+            <div class="infoBoxes">
+                <h1>$ <span id="choreAmount"></span></h1>
+            </div>
+
         </section>
 
         <script src="index.js"></script>
